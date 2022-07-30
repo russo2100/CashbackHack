@@ -20,7 +20,7 @@ public class CashbackHackServiceTest {
     @Test
     public void remainTest2() {
         CashbackHackService service = new CashbackHackService();
-        int expected = 0;
+        int expected = 600;
         int amount = 1400;
 
         int actual = service.remain(amount);
